@@ -32,7 +32,7 @@ dogButton.addEventListener('click', function () {
 
 const sheepButton = document.getElementById('make-sheep');
 
-sheepButton.addEventListener('click', handleMakingSheep ()) ;
+sheepButton.addEventListener('click', handleMakingSheep) ;
 // TODO: add an event listener to the sheepButton that calls `handleMakingSheep` when clicked
 function handleMakingSheep (){
 
@@ -40,13 +40,23 @@ function handleMakingSheep (){
 const newSheep = document.createElement('li');
 newSheep.textContent ='Sheep';
 
-const sheeps =document.getElementById('sheeps');
+const sheeps = document.getElementById('sheeps');
 sheeps.appendChild(newSheep);
 
 
   // TODO: make a new list item, assign its text content to `Sheep` or the name of a sheep you know, and append it to the third unordered list.
 
-};
+}
+const horseButton = document.getElementById('make-horse');
+horseButton.addEventListener('click', handleMakingHorse) ;
+function handleMakingHorse (){
+
+  const newHorse = document.createElement('li');
+  newHorse.textContent = 'Horse';
+
+  const horses =document.getElementById('horses');
+  horses.appendChild(newHorse);
+}
 
 // TODO: create an event listener for the `Make Horse` Button that calls a function named `handleMakingHorse`
 
