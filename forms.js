@@ -15,8 +15,8 @@ input.name = 'input';
 content.id = 'info';
 content.name = "content";
 submit.type = "submit";
-content.rows = "5";
-content.cols = "30";
+content.rows = "20";
+content.cols = "40";
 
 fieldset.appendChild(label);
 fieldset.appendChild(input);

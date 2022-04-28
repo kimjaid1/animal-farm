@@ -1,11 +1,66 @@
+body{
+    font-family: Alfa Slab One;
+    background-color: navajowhite;
+}
+
+
 #theform{
+    text-align: center;
     display:grid;
     grid-template-columns: 1fr 2fr 2fr;
-    grid-gap: 10px;
     margin-top: 20px;
     padding: 20px;
+    height: 200px;
+    width: 500px;
 
 }
-#entry{
-    
+p{
+    border: solid brown 4px;
+    background-color: ivory;
+    font-size: 15px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+
 }
+.container{
+    font-family: Russo One ;
+    position:relative;
+    text-align: center;
+    color:black;
+    font-size: 60px;
+    }
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+img{
+    width: 1500px;
+    height: 100px;
+    border-radius: 10px;
+    border: 8px solid rgb(247, 228, 205);
+  }
+ a{
+     text-align: center;
+     display: block;
+     text-decoration: none;
+     color:rgb(150, 75, 22);
+     border:darkgreen 3px solid;
+     border-radius: 15px;
+     padding: 10px;
+     background-color: linen;
+     margin-top: 50px;
+     width: 90px;
+ }
+ a:hover{
+     text-decoration: none;
+     color:linen;
+     background-color: rgb(150, 75, 22);
+     border: solid 5px rgb(75, 146, 75);
+     padding:16px;
+     
+ }
+
