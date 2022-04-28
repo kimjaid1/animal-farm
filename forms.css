@@ -1,7 +1,11 @@
-#journal{
-    display:block;
-    height: 200px;
+#theform{
+    display:grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-gap: 10px;
+    margin-top: 20px;
+    padding: 20px;
+
 }
-#journalLabel{
-    display: block;
+#entry{
+    
 }

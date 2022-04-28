@@ -8,7 +8,7 @@ const fieldset = document.getElementById('entry');
 const content = document.createElement('textarea');
 
 
-label.textContent = "Topic"
+label.textContent = "Topic:"
 input.type = 'text';
 input.id = "title";
 input.name = 'input';
