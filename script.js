@@ -2,6 +2,7 @@
 
 // TODO: assign `catButton` a value by selecting the button labeled `Make Cat` from the DOM
 
+<<<<<<< HEAD
 const chickenButton = document.getElementById('make-chicken');
 chickenButton.addEventListener('click', function(){
 
@@ -26,6 +27,32 @@ pigButton.addEventListener('click', function () {
  
  const pigs = document.getElementById('pigs')
  pigs.appendChild(newPig)
+=======
+const catButton = document.getElementById('make-cat');
+catButton.addEventListener('click', function(){
+
+  // TODO: assign `newCat a value by creating a new list item DOM element
+
+  const newCat = document.createElement('li');
+  newCat.textContent ='Cat';
+
+  // TODO: assign the list item's text to be 'Cat' or the name of a cat you know.
+
+  const cats = document.getElementById('cats');
+
+  cats.appendChild(newCat);
+});
+
+const dogButton = document.getElementById('make-dog');
+dogButton.addEventListener('click', function () {
+  const newDog = document.createElement('li');
+  newDog.textContent = 'Dog';
+
+  // TODO: assign `dogs` a value by selecting the second unordered list by its id
+ 
+ const dogs = document.getElementById('dogs')
+ dogs.appendChild(newDog)
+>>>>>>> 501ed61d817331c276af6e88309509a215465b6f
 
   // TODO: append the newly created list item to the dogs list
 });
@@ -54,7 +81,11 @@ function handleMakingHorse (){
   const newHorse = document.createElement('li');
   newHorse.textContent = 'Horse';
 
+<<<<<<< HEAD
   const horses = document.getElementById('horses');
+=======
+  const horses =document.getElementById('horses');
+>>>>>>> 501ed61d817331c276af6e88309509a215465b6f
   horses.appendChild(newHorse);
 }
 
